@@ -1,11 +1,17 @@
 @extends('admin.template.main')
 
-
-@section('title','Inicio de pagina')
-
 @section('content')
-    <h1>Hola esto es bootstrap</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <div class="panel panel-default">
+                    <div class="panel-heading">Welcome</div>
 
-    <a class="btn btn-success">hola</a>
-
+                    <div class="panel-body">
+                        usuario sin loguearse
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
